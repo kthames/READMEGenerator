@@ -1,6 +1,19 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+    
+    const format = {};
+    
+    switch(license) {
+        case 'Apache License 2.0': 
+            format = {
+                label: 'build',
+                message: 'passed',
+                color: 'green',
+            }
+            break;
+
+    }
 
 }
 
@@ -22,31 +35,37 @@ const generateMarkdown = ({ title, description, installInstruct, usageInfo, cont
 
 `# ${title}
 
+## Badges
+
 ## Description 
 ${description}
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Installation Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#installation-instructions)
+- [Usage Information](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#usage-information)
+- [License](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#license)
+- [Badges](#https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#badges)
+- [Contributions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#how-to-contribute)
+- [Testing Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#testing-instructions)
+- [Questions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#questions)
 
 ## Installation Instructions
 ${installInstruct}
 
 ## Usage Information
 ${usageInfo}
-## License
 
-## Badges
+## License
 
 ## How to Contribute
 ${contribGuide}
 ## Testing Instructions
 ${testInstruct}
 ## Questions
-${github}
-${email}
+### Want to see more of my work? 
+#### My GitHub username: ${github}
+### How can you contact me? 
+####${email}
 `;
 
 module.exports = generateMarkdown;

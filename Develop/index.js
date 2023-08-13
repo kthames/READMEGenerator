@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const { writeFile } = require('fs').promises;
 const generateMarkdown = require('./utils/generateMarkdown');
 
+
 const promptUser = () => {
     return inquirer.prompt([
         {
