@@ -62,14 +62,10 @@ const init = () => {
       // a callback function
       .then((answers) => writeFile('README-S.md', generateMarkdown(answers)))
       //.then((answers) => console.log(answers))
-      .then(() => console.log('Successfully wrote to index.html'))
+      .then(() => console.log('Successfully wrote to README-S.md'))
       .catch((err) => console.error(err));
   };
   
   init();
 
 
-  //TODO
-  //add license information 
-  //add github link
-  //fix badges link
