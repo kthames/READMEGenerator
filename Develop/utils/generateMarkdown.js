@@ -96,6 +96,18 @@ function renderLicenseLink(license) {
     return link;
 }
 
+function renderLicenseSection(license) {
+    var section = " ";
+
+    if(license === "No License") {
+        section = "No license has been selected for this application."
+    } else {
+        const link = renderLicenseLink(license);
+        section = "This application is covered under the "+ link +" license.";
+    }
+
+    return section;
+}
 //a function to generate markdown for README from user prompt
 const generateMarkdown = ({ title, description, installInstruct, usageInfo, contribGuide, testInstruct, license, github, email }) =>
 `# ${title}
@@ -122,7 +134,7 @@ ${installInstruct}
 ${usageInfo}
 
 ## License
- This application is covered under the ${renderLicenseLink(license)} license. 
+${renderLicenseSection(license)}
 
 ## How to Contribute
 ${contribGuide}

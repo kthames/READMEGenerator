@@ -1,10 +1,10 @@
 # Project Title
 
 ## Badge
- 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description 
-Place your project description here.
+Project Description
 
 ## Table of Contents
 - [Installation Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#installation-instructions)
@@ -16,24 +16,24 @@ Place your project description here.
 - [Questions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#questions)
 
 ## Installation Instructions
-Place your project's installation instructions here.
+Installation Instructions
 
 ## Usage Information
-Place your project's usage instructions here.
+Usage Information
 
 ## License
- This application is covered under the   license. 
+This application is covered under the [MIT License](https://opensource.org/licenses/MIT) license.
 
 ## How to Contribute
-Place your projects contribution guidelines here.
+Contribution Guidelines
 
 ## Testing Instructions
-Place your projects test instructions here.
+Test Instructions
 
 ## Questions
 
 ### Want to see more of my work? 
- [Check out my GitHub:](https://github.com/githubUsername)
+ [Check out my GitHub:](https://github.com/username)
 
 ### How can you contact me? 
  My email: email@test.com
