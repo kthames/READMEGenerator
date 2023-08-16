@@ -1,4 +1,13 @@
 # Professional README Generator
 
+## Description
+This application prompts the user for information that will allow them to create a professional README. This allows creators to create a README file with the minimum details that will show viewers the necessary information about the application.
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+[Watch me create a professional README](#)
+
+[Professional README Generator](https://github.com/kthames/READMEGenerator)
+![Professional README Generator](./Develop/images/READMEGeneratorSS.png)
+
+## Authors
+
+Katherine Thames - k.thames@me.com

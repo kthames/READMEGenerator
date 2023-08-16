@@ -1,6 +1,7 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+// function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+    
     var badge = " ";
     
     switch(license) {
@@ -47,7 +48,7 @@ function renderLicenseBadge(license) {
     return badge;
 }
 
-// TODO: Create a function that returns the license link
+//  a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     var link = " ";
@@ -95,73 +96,24 @@ function renderLicenseLink(license) {
     return link;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-    var section = " ";
-    
-    switch(license) {
-        case 'Apache License 2.0': 
-            section = "[Apache License 2.0](https://opensource.org/licenses/Apache-2.0) "
-            break;
-        case 'GNU General Public License v3.0': 
-            section = "[GNU General Public License v3.0'](https://www.gnu.org/licenses/gpl-3.0) "
-            break;
-        case 'MIT License': 
-            section = "[MIT License](https://opensource.org/licenses/MIT)"
-            break;
-        case 'BSD 2-Clause "Simplified" License"':
-            section = '[BSD 2-Clause "Simplified" License"](https://opensource.org/licenses/BSD-2-Clause)'
-            break;
-        case 'BSD 3-Clause "New" or "Revised" License"':
-            section = '[BSD 3-Clause "New" or "Revised" License"](https://opensource.org/licenses/BSD-3-Clause)'
-            break;
-        case 'Boost Software License 1.0': 
-            section = "[Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)"
-            break;
-        case 'Creative Common Zero v1.0 Universal':
-            section = "[Creative Common Zero v1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/) "
-            break;
-        case 'Eclipse Public License 2.0':
-            section = "[Eclipse Public License 2.0](https://opensource.org/licenses/EPL-1.0)"
-            break;
-        case 'GNU Affero General Public License':
-            section = "[GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0)"
-            break;
-        case 'GNU Lesser General Public License v2.1':
-            section = "[GNU Lesser General Public License v2.1](https://www.gnu.org/licenses/lgpl-3.0)"
-            break;
-        case 'Mozilla Public License 2.0':
-            section = "[Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)"
-            break;
-        case 'The Unlicense':
-            section = "[The Unlicense](http://unlicense.org/)"
-            break;
-        case 'No License':
-            section = " ";
-    }
-    return section;
-
-}
-
-// TODO: Create a function to generate markdown for README
+//a function to generate markdown for README from user prompt
 const generateMarkdown = ({ title, description, installInstruct, usageInfo, contribGuide, testInstruct, license, github, email }) =>
 `# ${title}
 
-## Badges
+## Badge
 ${renderLicenseBadge(license)}
 
 ## Description 
 ${description}
 
 ## Table of Contents
-- [Installation Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#installation-instructions)
-- [Usage Information](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#usage-information)
-- [License](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#license)
-- [Badges](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#badges)
-- [Contributions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#how-to-contribute)
-- [Testing Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#testing-instructions)
-- [Questions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#questions)
+- [Installation Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#installation-instructions)
+- [Usage Information](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#usage-information)
+- [License](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#license)
+- [Badge](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#badges)
+- [Contributions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#how-to-contribute)
+- [Testing Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#testing-instructions)
+- [Questions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#questions)
 
 ## Installation Instructions
 ${installInstruct}
@@ -171,7 +123,7 @@ ${usageInfo}
 
 ## License
  This application is covered under the ${renderLicenseLink(license)} license. 
- 
+
 ## How to Contribute
 ${contribGuide}
 
@@ -188,3 +140,4 @@ ${testInstruct}
 `;
 
 module.exports = generateMarkdown;
+//export function to use in index.js

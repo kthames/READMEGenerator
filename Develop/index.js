@@ -1,10 +1,11 @@
+//require all the necessary npm installs and functions
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // Node v10+ includes a promises module as an alternative to using callbacks with file system methods.
 const { writeFile } = require('fs').promises;
 
-
+//prompt user allows user to answer the questions created and saves answers in "answers"
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -61,7 +62,6 @@ const init = () => {
       // Use writeFile method imported from fs.promises to use promises instead of
       // a callback function
       .then((answers) => writeFile('README-S.md', generateMarkdown(answers)))
-      //.then((answers) => console.log(answers))
       .then(() => console.log('Successfully wrote to README-S.md'))
       .catch((err) => console.error(err));
   };
