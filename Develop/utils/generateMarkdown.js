@@ -114,7 +114,7 @@ ${description}
 - [Installation Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#installation-instructions)
 - [Usage Information](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#usage-information)
 - [License](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#license)
-- [Badges](#https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#badges)
+- [Badges](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#badges)
 - [Contributions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#how-to-contribute)
 - [Testing Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#testing-instructions)
 - [Questions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-sample.md#questions)
@@ -137,7 +137,7 @@ ${testInstruct}
 
 ### Want to see more of my work? 
  My GitHub username: ${github}
- 
+
 ### How can you contact me? 
  My email: ${email}
 `;
