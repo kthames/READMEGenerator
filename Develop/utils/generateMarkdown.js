@@ -145,7 +145,7 @@ ${testInstruct}
 ## Questions
 
 ### Want to see more of my work? 
- [Check out my GitHub:](https://github.com/${github})
+ Check out my [GitHub](https://github.com/${github})
 
 ### How can you contact me? 
  My email: ${email}
