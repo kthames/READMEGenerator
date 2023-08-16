@@ -4,7 +4,6 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // Node v10+ includes a promises module as an alternative to using callbacks with file system methods.
 const { writeFile } = require('fs').promises;
 
-// Use writeFileSync method to use promises instead of a callback function
 
 const promptUser = () => {
   return inquirer.prompt([
@@ -42,7 +41,7 @@ const promptUser = () => {
         type: 'list',
         message: 'Please select your desired license:',
         name: 'license',
-        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License"', 'BSD 3-Clause "New" or "Revised" License"', 'Boost Software License 1.0', 'Creative Common Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License','GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense'],
+        choices: ['Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause "Simplified" License"', 'BSD 3-Clause "New" or "Revised" License"', 'Boost Software License 1.0', 'Creative Common Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License','GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense', 'No License'],
     },
     {
         type: 'input',
@@ -69,6 +68,8 @@ const init = () => {
   
   init();
 
+
+  //TODO
   //add license information 
   //add github link
-  
+  //fix badges link
