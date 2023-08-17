@@ -1,10 +1,10 @@
-# ReadMe Generator
+# Professional ReadMe Generator
 
 ## Badge
 ![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
 
 ## Description 
-This application allows the user to provide information to create a professional ReadMe file.
+This application allows the user to provide all the necessary information for a professional README file and creates the markdown for the user. 
 
 ## Table of Contents
 - [Installation Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#installation-instructions)
@@ -16,19 +16,19 @@ This application allows the user to provide information to create a professional
 - [Questions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#questions)
 
 ## Installation Instructions
-Before using this application, install npm and inquirer version 8.2.4.
+To use this application install npm and the appropriate inquirer version. 
 
 ## Usage Information
-There is not any usage information for this project.
+There is no usage information for this project at this time. 
 
 ## License
 This application is covered under the [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt) license.
 
 ## How to Contribute
-Please follow the Contribution Covenant Guidelines for this application.
+Please follow the Contribution Covenant Guidelines. 
 
 ## Testing Instructions
-There are not a tests for this project.
+There are no test for this application at this time. 
 
 ## Questions
 
