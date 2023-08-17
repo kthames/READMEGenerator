@@ -1,10 +1,10 @@
-# Project Title
+# ReadMe Generator
 
 ## Badge
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)
 
 ## Description 
-Project Description
+This application allows the user to provide information to create a professional ReadMe file.
 
 ## Table of Contents
 - [Installation Instructions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#installation-instructions)
@@ -16,24 +16,24 @@ Project Description
 - [Questions](https://github.com/kthames/READMEGenerator/blob/main/Develop/README-S.md#questions)
 
 ## Installation Instructions
-Installation Instructions
+Before using this application, install npm and inquirer version 8.2.4.
 
 ## Usage Information
-Usage Information
+There is not any usage information for this project.
 
 ## License
-This application is covered under the [MIT License](https://opensource.org/licenses/MIT) license.
+This application is covered under the [Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt) license.
 
 ## How to Contribute
-Contribution Guidelines
+Please follow the Contribution Covenant Guidelines for this application.
 
 ## Testing Instructions
-Test Instructions
+There are not a tests for this project.
 
 ## Questions
 
 ### Want to see more of my work? 
- [Check out my GitHub:](https://github.com/username)
+ Check out my [GitHub](https://github.com/kthames)
 
 ### How can you contact me? 
- My email: email@test.com
+ My email: k.thames@me.com
